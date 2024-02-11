@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Ryan Hinkle
+	Date: February 10, 2024
+	Software Engineering
+    Project: Dice Roller
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Roller</title>
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="6.png">
+</head>
+<body>
+  <!-- Title logo is an image -->
+  <img src="titlelogo.png" alt="Title Logo" class="title-logo">
+  <div class="container">
+    <!-- Container for the dice and button -->
+    <div class="dice-container">
+      <!-- HTML placeholders for the dice -->
+      <div class="dice" id="dice1"><img src="1.png" alt="Dice 1"></div>
+      <div class="dice" id="dice2"><img src="1.png" alt="Dice 1"></div>
+    </div>
+    <!-- Button to roll the dice -->
+    <button id="rollButton" class="mojang-font">Roll Dice</button>
+    <!-- Container for displaying the result prompt -->
+    <div id="resultPrompt" class="result-prompt mojang-font"></div>    
+  </div>
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
