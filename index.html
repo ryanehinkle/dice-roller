@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="6.png">
 </head>
-<body>
+<body onload="rollOnLoad()"> <!-- Call rollOnLoad function when the page is loaded -->
   <!-- Title logo is an image -->
   <img src="titlelogo.png" alt="Title Logo" class="title-logo">
   <div class="container">
@@ -25,7 +25,7 @@
       <div class="dice" id="dice2"><img src="1.png" alt="Dice 1"></div>
     </div>
     <!-- Button to roll the dice -->
-    <button id="rollButton" class="mojang-font">Roll Dice</button>
+    <button id="rollButton" class="mojang-font" autofocus>Roll Dice</button> <!-- Add autofocus attribute -->
     <!-- Container for displaying the result prompt -->
     <div id="resultPrompt" class="result-prompt mojang-font"></div>    
   </div>
